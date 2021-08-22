@@ -1,0 +1,149 @@
+body {
+    background-color: #d3f4f9;
+}
+
+#cac {
+    position: absolute;
+    left: 45%;
+    top: 30%;
+}
+
+#cac-top {
+    width: 140px;
+    height: 100px;
+    background-color: rgb(29 192 67);
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+
+#cac-bottom {
+    width: 146px;
+    height: 197px;
+    background-color: black;
+    clip-path: polygon(0 0%, 100% 0, 92% 100%, 8% 100%);
+}
+
+#cac-bottom::before {
+    content: '';
+    width: 143px;
+    height: 200px;
+    background-color: rgb(29 192 67);
+    display: block;
+    position: absolute;
+    clip-path: polygon(2% 0%, 100% 0, 92% 100%, 11% 98%);
+}
+
+.mouth1 {
+    width: 33px;
+    height: 40px;
+    border: 3px solid #0a0a08;
+    border-radius: 30% 17% 70% 44% / 32% 26% 80% 31%;
+    position: absolute;
+    top: 68px;
+    left: 55px;
+    clip-path: polygon(0 33%, 100% 16%, 97% 100%, 0% 100%);
+}
+
+.mustache {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    position: absolute;
+    top: 72px;
+    left: 23px;
+    color: black;
+    z-index: 10;
+    box-shadow: 11px 36px 0 0 currentColor, 27px 35px 0 0 currentColor;
+}
+
+.mustache::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-bottom: solid 19px currentColor;
+    border-radius: 0 0 0 100%;
+    top: 20px;
+    left: -8px;
+    transform: rotate(-40deg);
+    transform-origin: right 20px;
+}
+
+.mustache::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-bottom: solid 19px currentColor;
+    border-radius: 0 0 100% 0;
+    top: 18px;
+    left: 45px;
+    transform: rotate(40deg);
+    transform-origin: left 20px;
+}
+
+#cac-eyes {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    top: 57% !important;
+    border-radius: 76px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#cac-eyes::after,
+#cac-eyes::before {
+    content: '';
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: #fbfaf0;
+    margin-top: 36%;
+}
+
+.pupil1 {
+    width: 25px;
+    height: 25px;
+    background: black;
+    position: absolute;
+    border-radius: 50%;
+    top: 23%;
+    left: 27px;
+    box-shadow: 1px 1px 3px #888787;
+}
+
+#eye1 {
+    width: 6px;
+    height: 6px;
+    background-color: #ffffff;
+    position: absolute;
+    border-radius: 50%;
+    top: 21%;
+    left: 7px;
+}
+
+.pupil2 {
+    width: 25px;
+    height: 25px;
+    background: black;
+    position: absolute;
+    border-radius: 50%;
+    top: 23%;
+    left: 92px;
+    box-shadow: 1px 1px 3px #888787;
+}
+
+#eye2 {
+    width: 5px;
+    height: 6px;
+    background-color: #ffffff;
+    position: absolute;
+    border-radius: 50%;
+    top: 17%;
+    left: 6px;
+}

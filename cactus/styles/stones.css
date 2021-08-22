@@ -1,0 +1,65 @@
+#stone1 {
+    width: 30px;
+    height: 40px;
+    background: #d48a50;
+    position: absolute;
+    border-radius: 100%;
+    top: 59%;
+    left: 43%;
+    border: 2px solid black;
+}
+
+#stone2 {
+    width: 30px;
+    height: 40px;
+    background: #ab9030;
+    border-radius: 100%;
+    position: absolute;
+    top: 59%;
+    left: 41%;
+    border: 2px solid black;
+}
+
+#stone3 {
+    width: 30px;
+    height: 40px;
+    background: #847526;
+    border-radius: 100%;
+    position: absolute;
+    top: 58%;
+    left: 42%;
+    border: 2px solid black;
+}
+
+#stone4 {
+    width: 30px;
+    height: 40px;
+    border-radius: 100%;
+    background: #847526;
+    position: absolute;
+    top: 59%;
+    left: 53%;
+    border: 2px solid black;
+}
+
+#stone5 {
+    width: 30px;
+    height: 40px;
+    border-radius: 100%;
+    background: #ab9030;
+    position: absolute;
+    top: 59%;
+    left: 54%;
+    border: 2px solid black;
+}
+
+#stone6 {
+    width: 30px;
+    height: 40px;
+    border-radius: 100%;
+    background: #d48a50;
+    position: absolute;
+    top: 59%;
+    left: 55%;
+    border: 2px solid black;
+}

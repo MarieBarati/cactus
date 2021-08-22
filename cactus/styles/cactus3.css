@@ -1,0 +1,86 @@
+#cac3 {
+    position: absolute;
+    left: 43%;
+    top: 52%;
+    border: 3px solid black;
+    width: 110px;
+    height: 118px;
+    background-color: rgb(183 240 30);
+    border-radius: 100%;
+}
+
+#cac-eyes3 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    top: 57% !important;
+    border-radius: 76px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#cac-eyes3::after,
+#cac-eyes3::before {
+    content: '';
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: #0a0a08;
+    margin-top: 29%;
+}
+
+.pupil13 {
+    width: 10px;
+    height: 10px;
+    background: #fbfaf0;
+    position: absolute;
+    border-radius: 50%;
+    top: 33%;
+    left: 19px;
+    box-shadow: 1px 1px 3px #888787;
+}
+
+.pupil23 {
+    width: 5px;
+    height: 5px;
+    background: #fbfaf0;
+    position: absolute;
+    border-radius: 50%;
+    top: 38%;
+    left: 31px;
+    box-shadow: 1px 1px 3px #888787;
+}
+
+.pupil33 {
+    width: 10px;
+    height: 10px;
+    background: #fbfaf0;
+    position: absolute;
+    border-radius: 50%;
+    top: 33%;
+    left: 73px;
+    box-shadow: 1px 1px 3px #888787;
+}
+
+.pupil43 {
+    width: 5px;
+    height: 5px;
+    background: #fbfaf0;
+    position: absolute;
+    border-radius: 50%;
+    top: 38%;
+    left: 85px;
+    box-shadow: 1px 1px 3px #888787;
+}
+
+.mouth3 {
+    width: 16px;
+    height: 9px;
+    border: 2px solid #d20001;
+    border-radius: 36% 17% 70% 44% / 32% 26% 80% 73%;
+    position: absolute;
+    top: 56px;
+    left: 45px;
+    clip-path: polygon(0 33%, 100% 16%, 97% 100%, 0% 100%);
+}

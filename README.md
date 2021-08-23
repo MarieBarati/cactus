@@ -1,1 +1,4 @@
 # cactus
+In making this painting, no image has been used but pure CSS codes. To see the result, clone the repository and open cactuses.html. A snapshot of the project is attached to depict the final result.
+
+![cactus](cactus-image.jpeg)
